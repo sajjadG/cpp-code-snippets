@@ -1,3 +1,10 @@
+In the name of God
+
+This class is a header only class for parsing an url.
+
+----------------
+compile and run:
+----------------
 g++ tester.cc -lboost_regex -o urlparser.run
 /urlparser.run http://localhost:80/songs/filename?q=yes
 Protocol: http
