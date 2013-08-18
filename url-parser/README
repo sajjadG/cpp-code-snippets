@@ -1,0 +1,8 @@
+g++ tester.cc -lboost_regex -o urlparser.run
+/urlparser.run http://localhost:80/songs/filename?q=yes
+Protocol: http
+Host: localhost
+Port: 80
+Path: /songs/
+File: filename
+Parameters: ?q=yes
