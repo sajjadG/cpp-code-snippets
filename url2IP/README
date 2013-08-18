@@ -1,0 +1,25 @@
+In the name of God
+
+This class is a header only class for getting the corresponding IP of a url.
+
+---------------------
+dependancy:boost asio
+----------------
+compile and run:
+----------------
+$ g++ tester.cc -o url2IP.run -lboost_system -pthread
+$ ./url2IP.run localhost
+IP addresses: 
+127.0.0.1 
+$ ./url2IP.run www.google.com
+IP addresses: 
+74.125.236.112	 74.125.236.115	74.125.236.114	74.125.236.116	74.125.236.113	2404:6800:4009:803::1011
+$ ./url2IP.run www.google.com
+IP addresses: 
+173.194.36.48	173.194.36.52	173.194.36.51	173.194.36.50	173.194.36.49	2404:6800:4009:801::1013	
+$ ./url2IP.run www.firefox.com
+IP addresses: 
+63.245.217.20	2620:101:8008:5::2:8	
+$ ./url2IP.run www.eclipse.com
+IP addresses: 
+209.197.126.240
