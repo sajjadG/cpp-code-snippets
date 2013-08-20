@@ -1,0 +1,15 @@
+In the name of God
+
+This class is a header only class for extracting archives.
+
+---------------------
+dependancy:libarchive
+----------------
+compile and run:
+----------------
+$ g++ tester.cc -larchive -o extracter.run
+$ ./extracter.run arch.7z
+arch/index.html
+arch/test.php
+arch/catalog.json
+arch/
